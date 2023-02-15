@@ -78,7 +78,6 @@
   
   /* Styles for the footer */
   footer {
-    position: fixed; /* 固定位置にする */
     bottom: 0; /* 画面の下に固定する */
     width: 100%;
     background-color: #ddd;
