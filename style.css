@@ -40,9 +40,40 @@
     font-size: 3rem;
     margin-bottom: 1rem;
   }
+  h3 {
+    font-size: 1.5rem;
+  }
   p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+  }
+  .portfoio {
+    font-size: 1rem;
+  }
+
+  .project-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  .project {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project {
+      flex-basis: calc(50% - 20px);
+    }
   }
   
   /* Styles for the footer */
