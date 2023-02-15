@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Portfolio</title>
+    <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -17,30 +17,21 @@
         </ul>
       </nav>
     </header>
-    <main>
-        <section>
-            <h2>Portfolio</h2>
-            <div class="project-list">
-              <div class="project">
-                <a href="https://shokiyokota.github.io/assessment/assessment.html">
-                  <img class = "img" src="/images/twitterImage.jpg"  alt="Project 1">
-                </a>
-                <h3>Twitter診断メーカー</h3>
-                <div class="portfolio-text">N予備校で作成しました。</div>
-              </div>
-              <div class="project">
-                <img class = "img" src="images/portfolio2.jpg"  alt="Project 2">
-                <h3>Coming Soon</h3>
-                <div class="portfolio-text">準備中</div>
-              </div>
-              <div class="project">
-                <img class = "img" src="/images/portfoio3.jpg"  alt="Project 3">
-                <h3>Twitter診断メーカー</h3>
-                <div class="portfolio-text">準備中</div>
-              </div>
-            </div>
-          </section>
-              </main>
+        <main class="contact">
+           <section>
+        <h2>Contact Me</h2>
+        <h3 class="contact-h3">※フォームは見た目だけです💦</br>Twitter、InstagramのDMでお待ちしてます！</h3>
+        <form method="post" action="https://example.com/contact-form">
+          <label for="name">Name</label>
+          <input type="text" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea name="message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+          </main>
     <footer>
       <a href="https://twitter.com/@gold_shoki">
         <img
@@ -63,9 +54,7 @@
           class="sns-logo"
         />
       </a>
-      <p class="copyright">
-        Copyright &copy; 2023 Shoki Yokota. All rights reserved.
-      </p>
+      <p class="copyright">Copyright &copy; 2023 Shoki Yokota. All rights reserved.</p>
     </footer>
   </body>
 </html>

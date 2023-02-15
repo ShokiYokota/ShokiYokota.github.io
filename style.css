@@ -83,6 +83,9 @@
     width: 300px;
     height: auto;
   }
+.contact-h3 {
+    padding: 1rem;
+}
 
   /* Styles for the footer */
   footer {
