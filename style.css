@@ -25,7 +25,14 @@
   }
   
   /* Styles for the main content */
+  body {
+    min-height: 100vh; /* 画面の高さいっぱいにする */
+    display: flex;
+    flex-direction: column; /* 縦方向に要素を並べる */
+  }
+  
   main {
+    flex: 1; /* mainを残りのスペースに伸ばす */
     padding: 2rem;
     text-align: center;
   }
@@ -40,9 +47,16 @@
   
   /* Styles for the footer */
   footer {
+    position: fixed; /* 固定位置にする */
+    bottom: 0; /* 画面の下に固定する */
+    width: 100%;
     background-color: #ddd;
     padding: 1rem;
     text-align: center;
+  }
+
+  .copyright{
+    font-size: 1rem;
   }
 
   .sns-logo {
